@@ -1,0 +1,27 @@
+.popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.check {
+    position: absolute;
+    top: -50px;
+}
+
+.popup .text {
+    text-align: center;
+}
+
+
+
+/* Ajusta o popup para telas de até 400px */
+@media (max-width: 400px) {
+    .popup {
+        margin-top: 100px;
+    }
+}
