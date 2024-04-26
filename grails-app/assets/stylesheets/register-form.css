@@ -85,3 +85,18 @@ button {
 button:hover {
     background-color: #F24C00;
 }
+
+
+
+/* Para telas de até 400px */
+@media (max-width: 400px) {
+    body {
+        align-items: baseline;
+        background-color: #FFFFFF;
+    }
+
+    main {
+        padding: 30px 16px;
+        box-shadow: none;
+    }
+}
