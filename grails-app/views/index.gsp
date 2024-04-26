@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <title>Cadastro</title>
+    <asset:stylesheet src="main.css" />
     <asset:stylesheet src="register-form.css" />
     <asset:javascript src="register-form.js" defer="true" />
 </head>

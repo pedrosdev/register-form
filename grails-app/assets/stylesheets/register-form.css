@@ -1,37 +1,4 @@
-/* Fonte personalizada */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-/* Reset e configurações gerais */
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-}
-
-
-
-/* Estilos principais */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100dvh;
-    background-color: #FC944A;
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: #474747;
-}
-
-main {
-    width: 400px;
-    box-shadow: 0 0 4px #7A7A7A;
-    border-radius: 10px;
-    padding: 16px 20px;
-    background-color: #FFFFFF;
-}
-
+/* Estilos do formulário */
 form {
     display: flex;
     flex-direction: column;
@@ -84,19 +51,4 @@ button {
 
 button:hover {
     background-color: #F24C00;
-}
-
-
-
-/* Para telas de até 400px */
-@media (max-width: 400px) {
-    body {
-        align-items: baseline;
-        background-color: #FFFFFF;
-    }
-
-    main {
-        padding: 30px 16px;
-        box-shadow: none;
-    }
 }
