@@ -15,7 +15,9 @@ class RegisterController {
         println("Cidade: " + params["city"])
         println("UF: " + params["state"])
 
-        redirect(uri: "/")
+        redirect(action: "success")
     }
+
+    def success() { }
 
 }
