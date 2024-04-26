@@ -1,0 +1,87 @@
+/* Fonte personalizada */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Reset e configurações gerais */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/* Estilos principais */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background-color: #FC944A;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #474747;
+}
+
+main {
+    width: 400px;
+    box-shadow: 0 0 4px #7A7A7A;
+    border-radius: 10px;
+    padding: 16px 20px;
+    background-color: #FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-block: 4px 12px;
+    color: #F24C00;
+}
+
+input {
+    margin-block: 2px 8px;
+    box-shadow: 0 0 1px 1px #F5F5F5;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    padding: 6px 4px;
+    font-size: inherit;
+    transition: .2s;
+}
+
+input:focus, button:focus {
+    outline: none;
+    border: 1px solid #70B5FF;
+    box-shadow: 0 0 1px 1px #70B5FF;
+}
+
+input::placeholder {
+    font-weight: 300;
+    color: #7A7A7A;
+}
+
+.hint {
+    font-size: .8rem;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+
+button {
+    margin-block: 12px 8px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #FF580A;
+    font-size: inherit;
+    font-weight: 600;
+    color: #FFFFFF;
+    transition: .2s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F24C00;
+}
