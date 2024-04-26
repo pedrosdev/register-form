@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <title>Cadastro</title>
     <asset:stylesheet src="register-form.css" />
+    <asset:javascript src="register-form.js" defer="true" />
 </head>
 <body>
     <main>
@@ -17,7 +18,7 @@
             <input name="name" id="name" type="text" required>
             
             <label for="cpf">CPF:</label>
-            <input name="cpf" id="cpf" type="text" required>
+            <input name="cpf" id="cpf" type="text" maxlength="11" required>
 
             <label for="phone">Telefone:</label>
             <input name="phone" id="phone" type="tel" required>
@@ -26,7 +27,7 @@
 
             <%-- Endereço --%>
             <label for="cep">CEP:</label>
-            <input name="cep" id="cep" type="text" required>
+            <input name="cep" id="cep" type="text" maxlength="8" required>
 
             <label for="address-str">Rua:</label>
             <input name="address-str" id="address-str" type="text" required>
